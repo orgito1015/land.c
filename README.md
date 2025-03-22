@@ -1,3 +1,4 @@
+Description:
 The land.c program is a simple but dangerous exploit designed to trigger a Denial of Service (DoS) condition on vulnerable systems by sending a specially crafted TCP SYN packet to the target machine. This packet causes the machine to enter a loop where the system attempts to process a packet with the same source and destination address, leading to resource exhaustion, potential crashes, or freezes. The vulnerability was discovered in 1997 and affects multiple operating systems like Windows, Linux, FreeBSD, and others.
 
 Vulnerability:
